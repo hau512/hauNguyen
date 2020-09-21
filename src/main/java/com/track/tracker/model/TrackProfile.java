@@ -65,18 +65,8 @@ public class TrackProfile extends AbstractGlobalEntity {
 		this.fileVersion = fileVersion;
 		this.creator = creator;
 		this.metadata = metadata;
-		if (waypoints != null) {
-			for (Waypoint waypoint : waypoints) {
-				waypoint.setTrackProfile(this);
-			}
-		}
-		if (trackings != null) {
-			for (Tracking tracking : trackings) {
-				tracking.setTrackProfile(this);
-			}
-		}
-		this.waypoints = waypoints;
-		this.trackings = trackings;
+		this.setWaypoints(waypoints);
+		this.setTrackings(trackings);
 	}
 
 	public String getFileVersion() {
@@ -108,6 +98,11 @@ public class TrackProfile extends AbstractGlobalEntity {
 	}
 
 	public void setWaypoints(Set<Waypoint> waypoints) {
+		if (waypoints != null) {
+			for (Waypoint waypoint : waypoints) {
+				waypoint.setTrackProfile(this);
+			}
+		}
 		this.waypoints = waypoints;
 	}
 
@@ -116,6 +111,11 @@ public class TrackProfile extends AbstractGlobalEntity {
 	}
 
 	public void setTrackings(Set<Tracking> trackings) {
+		if (trackings != null) {
+			for (Tracking tracking : trackings) {
+				tracking.setTrackProfile(this);
+			}
+		}
 		this.trackings = trackings;
 	}
 

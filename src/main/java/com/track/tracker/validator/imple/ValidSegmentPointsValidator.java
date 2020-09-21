@@ -8,11 +8,11 @@ import javax.validation.ConstraintValidatorContext;
 import com.track.tracker.model.TrackingPoint;
 import com.track.tracker.validator.annotation.ValidSegmentPoints;
 
-public class ValidSegmentPointsValidator implements ConstraintValidator<ValidSegmentPoints,Set<TrackingPoint>> {
+public class ValidSegmentPointsValidator implements ConstraintValidator<ValidSegmentPoints, Set<TrackingPoint>> {
 
 	@Override
 	public boolean isValid(Set<TrackingPoint> value, ConstraintValidatorContext context) {
-		return value.size() > 1;
+		return value != null && value.size() > 1;
 	}
 
 }

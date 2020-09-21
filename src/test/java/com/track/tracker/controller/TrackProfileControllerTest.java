@@ -35,6 +35,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 
@@ -107,7 +108,7 @@ public class TrackProfileControllerTest {
 
 	@Test
 	public void test_getById_NotFound_return200() throws Exception {
-		this.mockMvc.perform(get("/trackProfile/" + UUID.randomUUID().toString())).andExpect(status().isOk())
+		this.mockMvc.perform(get("/trackProfile/" + UUID.randomUUID().toString())).andDo(print()).andExpect(status().isOk())
 				.andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
 				.andExpect(jsonPath("result.length()", is(0)));
 	}

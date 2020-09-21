@@ -37,12 +37,7 @@ public class TrackingSegment extends AbstractLocalEntity {
 
 	@JsonCreator
 	public TrackingSegment(@JsonProperty("trkpt") Set<TrackingPoint> trackingPoints) {
-		if (trackingPoints != null) {
-			for (TrackingPoint trackingPoint : trackingPoints) {
-				trackingPoint.setTrackingSegment(this);
-			}
-		}
-		this.trackingPoints = trackingPoints;
+		this.setTrackingPoints(trackingPoints);
 	}
 
 	public Tracking getTracking() {
@@ -58,6 +53,11 @@ public class TrackingSegment extends AbstractLocalEntity {
 	}
 
 	public void setTrackingPoints(Set<TrackingPoint> trackingPoints) {
+		if (trackingPoints != null) {
+			for (TrackingPoint trackingPoint : trackingPoints) {
+				trackingPoint.setTrackingSegment(this);
+			}
+		}
 		this.trackingPoints = trackingPoints;
 	}
 

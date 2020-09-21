@@ -1,3 +1,11 @@
+DROP TABLE IF EXISTS track_profile;
+DROP TABLE IF EXISTS metadata;
+DROP TABLE IF EXISTS link;
+DROP TABLE IF EXISTS waypoint;
+DROP TABLE IF EXISTS tracking;
+DROP TABLE IF EXISTS tracking_segment;
+DROP TABLE IF EXISTS tracking_point;
+
 CREATE TABLE track_profile (
   id VARCHAR(250) PRIMARY KEY,
   metadata_id VARCHAR(250) NOT NULL,
