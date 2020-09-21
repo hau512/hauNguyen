@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="OruxMaps v.7.1.6 Donate">
+	<metadata>
+		<name>Bardenas Reales: Piskerra y el Paso de los Ciervos</name>
+		<desc>Este espectacular Parque Natural semidesértico de belleza salvaje fue declarado Reserva de la Biosfera por la UNESCO. Un espectáculo insólito al sureste de Navarra próximo a Tudela, que a pesar de contar con una apariencia desnuda e inhóspita, esconde grandes valores naturales. La erosión de sus suelos arcillosos, yesos y areniscas ha esculpido caprichosas formas creando un mundo de apariencia casi lunar poblado de barrancos, mesetas planas y cerros solitarios. Es por ello por lo que ha servido como fuente de inspiración a pintores y escritores, además de ser escenario de anuncios televisivos, videoclips musicales y películas. Las Bárdenas carecen de núcleos urbanos, su vegetación es muy escasa y las múltiples corrientes de agua que surcan el territorio tienen un caudal marcadamente irregular, permaneciendo secos la mayor parte del año. &#xD;&#xA;El paisaje está marcado por la erosión, la cual crea un paisaje que es uno de sus principales atractivos </desc>
+		<author></author>
+		<link href="http://www.oruxmaps.com">
+			<text>OruxMaps</text>
+		</link>
+		<time>2017-10-22T09:41:33Z</time>
+	</metadata>
+	<wpt lat="42.2205377" lon="-1.4564538">
+		<name>Sorteamos por arriba</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2208346" lon="-1.4544232">
+		<name>Senda</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2187937" lon="-1.4453497">
+		<name>Cabaña de Piskerra</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2184442" lon="-1.4421597">
+		<name>Cruce</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.220266" lon="-1.4416908">
+		<name>Entorno de Piskerra</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2197307" lon="-1.4407347">
+		<name>Escaleras</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.219207" lon="-1.4406386">
+		<name>Mirador</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2223617" lon="-1.4388404">
+		<name>Hitos</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2227114" lon="-1.4380684">
+		<name>Piskerra</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2194558" lon="-1.4390695">
+		<name>Mini Valle</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2150225" lon="-1.434272">
+		<name>Paso de los Ciervos</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2124836" lon="-1.432348">
+		<name>Plana de Rallon</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2086185" lon="-1.4342122">
+		<name>Salida</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.2088339" lon="-1.4354788">
+		<name>Regreso</name>
+		<sym>/static/wpt/Waypoint</sym>
+	</wpt>
+	<wpt lat="42.21984943921425" lon="-1.437908113002777">
+		<name>Salida</name>
+		<sym>/static/wpt/panoramic.png</sym>
+	</wpt>
+	<trk>
+		<trkseg>
+			<trkpt lat="42.2208895" lon="-1.4580696">
+				<ele>315.86</ele>
+				<time>2017-10-22T09:41:38Z</time>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>
